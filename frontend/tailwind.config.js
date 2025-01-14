@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         playfair: ['"Playfair Display"', "serif"],
+        chalk: ["Great Vibes", "cursive"],
       },
       rotate: {
         14: "-14deg",
@@ -24,6 +25,7 @@ export default {
         specialGreen: "#47cf73",
         specialYellow: "#ffdd40",
         specialBlue: "#46baff",
+        anotherSpecialBlue: "#1d809f",
 
         // tag colors & special colors
         tagBlue: "#0b46b2",

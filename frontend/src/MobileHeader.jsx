@@ -2,7 +2,7 @@ import { IoAddSharp } from "react-icons/io5";
 
 function MobileHeader() {
   return (
-    <header className="tablet:hidden mb-4 bg-yellow-300">
+    <header className="tablet:hidden pb-6 bg-yellow-300">
       <div className="flex justify-center items-center bg-yellow-300 gap-4 p-4">
         {/* DER */}
         <div className="flex flex-col  items-center bg-gradient-to-r xs2:px-3 from-blue-500 to-purple-600 rounded-lg py-3 px-2 shadow-md w-full max-w-xs">

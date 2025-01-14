@@ -1,15 +1,15 @@
 import Header from "./Header";
 import MobileHeader from "./MobileHeader";
-import Paper from "./assets/images/paper.jpg";
+import StartSeite from "./StartSeite";
 
 function Homepage() {
   return (
     <>
-      <div className="w-screen mx-12 h-[800px] z-10 mt-20 rounded-xl">
+      <main className="mx-12 z-10 mt-20">
         <Header />
         <MobileHeader />
-        <img className="w-full" src={Paper} alt="Paper image" />
-      </div>
+        <StartSeite />
+      </main>
     </>
   );
 }
